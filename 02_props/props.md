@@ -39,7 +39,7 @@ function App() {
 
 ### 컴포넌트 추출
 - 컴포넌트를 여러 개의 작은(재사용이 가능한) 컴포넌트로 나누기 
-- <a href="">예제 / Extraction.jsx<a/>
+- <a href="https://github.com/sol-pine/React/blob/main/02_props/Extraction.jsx">예제 / Extraction.jsx<a/>
 
 ### props는 읽기 전용
 - 컴포넌트의 자체 props 수정 금지
