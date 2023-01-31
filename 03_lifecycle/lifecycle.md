@@ -2,7 +2,7 @@
 
 ### 생명주기 메서드를 클래스에 추가하기
 - 클래스형 컴포넌트에는 state lifecycle method가 존재
-  - <a href="">예제 / ClassComponent.jsx</a>
+  - <a href="https://github.com/sol-pine/React/blob/main/03_lifecycle/ClassComponent.jsx">예제 / ClassComponent.jsx</a>
 - 하지만 함수형 컴포넌트에서는 hook으로 상태 관리
   - <a href="">예제 / FunctionalComponent.jsx</a>
 
