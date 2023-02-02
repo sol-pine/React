@@ -23,7 +23,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Greeting isLoggedIn={false} />);
 ```
 
-### 논리 && 연산자로 IF를 인라인으로 표현하기
+### 논리 && 연산자로 If를 인라인으로 표현하기
 - `false && expression`인 경우, falsy 표현식이 반환되어 그려지므로 주의
 
 ### 조건부 연산자로 If-Else구문 인라인으로 표현하기
