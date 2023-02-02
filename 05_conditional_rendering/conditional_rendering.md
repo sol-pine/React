@@ -29,4 +29,4 @@ root.render(<Greeting isLoggedIn={false} />);
 ### 조건부 연산자로 If-Else구문 인라인으로 표현하기
 - `condition? true : false`
 - 조건에 따라 렌더링을 막고 싶을 땐 `null` 반환
-- 예제 / Condition.jsx
+- 예제 / <a href="https://github.com/sol-pine/study_ReactDocs/blob/main/05_conditional_rendering/Condition.jsx">Condition.jsx</a>
