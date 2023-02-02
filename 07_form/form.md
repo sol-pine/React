@@ -7,4 +7,4 @@
 
 ### 비제어 컴포넌트
 - 이벤트 핸들러를 작성하는 대신 ref 사용
-- 예제 / UncontrolledComponent.jsx
+- 예제 / <a href="https://github.com/sol-pine/study_ReactDocs/blob/main/07_form/UncontrolledComponent.jsx">UncontrolledComponent.jsx</a>
