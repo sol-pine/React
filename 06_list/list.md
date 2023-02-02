@@ -22,4 +22,4 @@ function NumberList(props) {
 - Key는 element에 안정적인 고유성을 부여하기 위해 배열 내부의 element에 지정
 - Key를 index를 주면 항목이 재배열(순서가 변경)됐을 시 컴포넌트를 완벽히 재사용하지 못함, index는 유니크하지만 가변, id는 유니크하면서 불변
 - Key는 자식에게 props로 전달되지 않음(attribute)
-- 예제 / <a>List.jsx</a>
+- 예제 / <a href="https://github.com/sol-pine/study_ReactDocs/blob/main/06_list/List.jsx">List.jsx</a>
