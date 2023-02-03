@@ -55,7 +55,6 @@ const [state, setState] = React.useState(() => {
   };
 }, [props.friend.id]); // dependancy array : props.friend.id가 바뀔 때만 재구독
 ```
-- 
 
 ### Hook 사용 규칙
 - 최상위 레벨에서 호출
