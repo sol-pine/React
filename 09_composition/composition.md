@@ -1,4 +1,4 @@
-# Composition
+# <a href="https://ko.reactjs.org/docs/composition-vs-inheritance.html">Composition</a>
 - 컴포넌트에 컴포넌트 담기
 - 상속 대신 합성을 사용하여 컴포넌트 간에 코드를 재사용하는 것이 좋음
 
@@ -13,4 +13,4 @@ function FancyBorder(props) {
   );
 }
 ```
-- Composition 예제 / Dialog.jsx, WelcomeDialog.jsx
+- Composition 예제 / <a href="https://github.com/sol-pine/study_ReactDocs/blob/main/09_composition/Dialog.jsx">Dialog.jsx</a>, WelcomeDialog.jsx
