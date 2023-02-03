@@ -70,7 +70,7 @@ const [state, setState] = React.useState(() => {
 ```
 
 ### useReducer
-- useState 예제 / State.jsx
+- useState 예제 / <a href="https://github.com/sol-pine/study_ReactDocs/blob/main/08_hook/State.jsx">State.jsx</a>
 - useReducer로 변경한 예제 / <a href="https://github.com/sol-pine/study_ReactDocs/blob/main/08_hook/Reducer.jsx">Reducer.jsx</a>
 
 ### Hook 사용 규칙
