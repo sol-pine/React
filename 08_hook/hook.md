@@ -3,8 +3,8 @@
 - 컴포넌트 간의 재사용성을 높이기 위해(lifecycle과 관련된 함수를 재사용할 수 있도록)
 - 상태 관련 로직을 분리하여 테스트도 용이
 
-### State Hook (useState)
-- `[현재 state, state 업데이트 함수] = useState(초기값)`
+### useState
+- `[state, setState] = useState(initialValue)`
 ```javascript
 function Example() {
   const [count, setCount] = useState(0);
@@ -36,8 +36,9 @@ const [state, setState] = React.useState(() => {
 });
 ```
 
-### Effect Hook (useEffect)
+### useEffect
 - lifecycle과 관련(componentDidMount, componentDidUpdate, componentWillUnmount)
+- 화면이 렌더링된 이후 수행
 - effect를 해제하기 위해선 해제 함수 반환(clean-up function)
 - 데이터 가져오기, 구독 설정하기, 수동으로 DOM 수정하기
 - Class(각각 다른 메서드로 관리)에 비해 관련이 있는 로직을 하나로 합치고 버그 방지
@@ -56,6 +57,26 @@ const [state, setState] = React.useState(() => {
 }, [props.friend.id]); // dependancy array : props.friend.id가 바뀔 때만 재구독
 ```
 
+### useRef
+- `const refContainer = useRef(initialValue);`
+- useRef는 ref 값이 변경된 경우 알려주지 않음을 주의!
+  - 콜백 Ref 사용
+```javascript
+  const measuredRef = useCallback(node => {
+    if (node !== null) {
+      setHeight(node.getBoundingClientRect().height);
+    }
+  }, []);
+```
+
+### useReducer
+- useState 예제 / State.jsx
+- useReducer로 변경한 예제 / Reducer.jsx
+
 ### Hook 사용 규칙
 - 최상위 레벨에서 호출
 - React 함수 컴포넌트 내에서 호출(커스텀훅 내에서도 사용 가능)
+
+### custom hook
+- 코드가 반복되면? 함수화!
+- hook이 반복되면? custom hook!
