@@ -13,4 +13,4 @@ function FancyBorder(props) {
   );
 }
 ```
-- Composition 예제 / <a href="https://github.com/sol-pine/study_ReactDocs/blob/main/09_composition/Dialog.jsx">Dialog.jsx</a>, WelcomeDialog.jsx
+- Composition 예제 / <a href="https://github.com/sol-pine/study_ReactDocs/blob/main/09_composition/Dialog.jsx">Dialog.jsx</a>, <a href="https://github.com/sol-pine/study_ReactDocs/blob/main/09_composition/WelcomDialog.jsx">WelcomeDialog.jsx</a>
