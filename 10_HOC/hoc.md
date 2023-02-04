@@ -7,4 +7,4 @@ const EnhancedComponent = higherOrderComponent(WrappedComponent);
 - 공통된 기능들을 구현해 재사용할 수 있도록 함
 - 원본 컴포넌트 변경 금지
 - ref는 전달되지 않음(React.forwardRef로 해결)
-- 예제 / Input.jsx, Button.jsx, withLoading.jsx(HOC)
+- 예제 / <a href="https://github.com/sol-pine/study_ReactDocs/blob/main/10_HOC/Input.jsx">Input.jsx</a>, <a href="https://github.com/sol-pine/study_ReactDocs/blob/main/10_HOC/Button.jsx">Button.jsx</a>, <a href="https://github.com/sol-pine/study_ReactDocs/blob/main/10_HOC/withLoading.jsx">withLoading.jsx(HOC)</a>
