@@ -12,7 +12,10 @@ const MyComponent = React.memo(function MyComponent(props) {
 - 동일한 props로 렌더링할 때, React.memo를 호출하고 결과를 메모이징(Memoizing)하도록 래핑
 - React는 컴포넌트를 렌더링하지 않고 마지막으로 렌더링된 결과를 재사용
 - <a href="https://ko.reactjs.org/docs/profiler.html">Profiler</a> : 리액트 성능 분석 도구, 성능 누수 파악
-- 예제 / <a href="https://github.com/sol-pine/study_ReactDocs/blob/main/11_memoization/Memo.jsx">Memo.jsx</a>, <a href = "https://github.com/sol-pine/study_ReactDocs/blob/main/11_memoization/Comments.jsx">Comments.jsx(useCallback)</a>, <a href="https://github.com/sol-pine/study_ReactDocs/blob/main/11_memoization/CommentItem.jsx">CommentItem.jsx(React.memo, useMemo, Profiler)</a>
+- 예제
+  - <a href="https://github.com/sol-pine/study_ReactDocs/blob/main/11_memoization/Memo.jsx">Memo.jsx</a>
+  - <a href = "https://github.com/sol-pine/study_ReactDocs/blob/main/11_memoization/Comments.jsx">Comments.jsx(useCallback)</a>
+  - <a href="https://github.com/sol-pine/study_ReactDocs/blob/main/11_memoization/CommentItem.jsx">CommentItem.jsx(React.memo, useMemo, Profiler)</a>
 
 ### useCallback
 ```javascript
